@@ -1,0 +1,36 @@
+// This program asks the user if they want to play a "Hello" game.
+// Based on the user's response, the program either terminates immediately or...
+// displays "Hello" as many times as the user wants.
+start
+	Declaration
+		num loop_counter
+		num loop_quantity
+		string user_entry
+	output("Do you want to play a 'Hello' game? Enter yes or no: ")
+	input user_entry
+	// This loop validates the user's entry to ensure that either "yes" or "no" are entered.
+	while NOT (user_entry = "yes" OR user_entry = "no")
+    		output("Invalid entry. Please enter yes or no: ")
+    		input user_entry
+	endwhile
+	if user_entry = "yes" then
+		// The following output and input statements determine how many times "Hello" will be displayed.
+		output("Great. How many times do you want the word 'Hello' to be displayed? Please enter a number: ")
+		input loop_quantity
+		// This loop validates the user's entry to ensure that the loop_quantity is a numeric value.
+		// If the user doesn't enter a number, a message will display telling the user to enter a number.
+		while NOT isNumeric(loop_quantity)
+			output("Invalid entry. Please enter a number: ")
+			input loop_quantity
+		endwhile
+		loop_counter = 1
+		// This loop controls how many times "Hello" is displayed.
+		while loop_counter <= loop_quantity
+			output("Hello")
+			loop_counter = loop_counter + 1
+		endwhile
+	else
+		output("The program has been terminated.")
+	endif
+stop
+		

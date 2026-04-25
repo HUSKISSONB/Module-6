@@ -1,0 +1,245 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="xNvAii2rp1ZER7xRPK4V">
+    <mxGraphModel dx="2014" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-16" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="start" vertex="1">
+          <mxGeometry height="40" width="80" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeWidth=2;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Declaration&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num user_entry&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num QUIT = 0&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;Hello, you will be asked&amp;nbsp;&lt;div&gt;repeatedly to enter a number.&quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="150" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-5" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;The number can be a&amp;nbsp;&lt;div&gt;negative number, such as -5, or&amp;nbsp;&lt;/div&gt;&lt;div&gt;a positive number, such as 12.&quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="150" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-20" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-10" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="NOT isNumeric(user_entry) ?" vertex="1">
+          <mxGeometry height="80" width="200" x="170" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-21" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;Invalid entry. Please enter a number (enter 0 to quit): &quot;)" vertex="1">
+          <mxGeometry height="40" width="230" x="480" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="input user_entry" vertex="1">
+          <mxGeometry height="40" width="230" x="480" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-22" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-9" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="270" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-24" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-14" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="1020" />
+            </Array>
+            <mxPoint x="790" y="1019.9999999999998" as="sourcePoint" />
+            <mxPoint x="910" y="1119.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-42" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;That&#39;s a negative number.&quot;)" vertex="1">
+          <mxGeometry height="40" width="260" x="400" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-43" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-14" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1020" />
+            </Array>
+            <mxPoint x="650" y="1019.9999999999998" as="sourcePoint" />
+            <mxPoint x="530" y="1125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-49" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="350" as="sourcePoint" />
+            <mxPoint x="300" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-50" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="420" as="sourcePoint" />
+            <mxPoint x="300" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="830" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-62" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;This program continuously prompts the user to enter a number.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;For each number entered, the program displays whether the&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;number is a positive or negative number.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="365" x="480" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-63" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="180" as="sourcePoint" />
+            <mxPoint x="700" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-64" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;This loop validates the user&#39;s first entry by&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ensuring it&#39;s a numeric value.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="810" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kcXZSzq2TuWggxcAxbqd-65" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-8" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="740" as="sourcePoint" />
+            <mxPoint x="680" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;The following series of outputs tell the user what they will be&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;asked to do and how to stop the program.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="365" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-2" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="380" as="sourcePoint" />
+            <mxPoint x="620" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-7" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;Please enter a number&amp;nbsp;&lt;div&gt;(enter 0 to quit): &quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="150" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-8" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="kcXZSzq2TuWggxcAxbqd-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="input user_entry" vertex="1">
+          <mxGeometry height="40" width="240" x="150" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-42" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="user_entry &amp;lt;&amp;gt; QUIT ?" vertex="1">
+          <mxGeometry height="80" width="200" x="170" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;That&#39;s a positive number.&quot;)" vertex="1">
+          <mxGeometry height="40" width="260" x="780" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="user_entry &amp;gt; 0 ?" vertex="1">
+          <mxGeometry height="80" width="200" x="620" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-15" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-9" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="880" />
+            </Array>
+            <mxPoint x="490" y="880" as="sourcePoint" />
+            <mxPoint x="790" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-16" edge="1" parent="1" source="kcXZSzq2TuWggxcAxbqd-42" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1220" />
+              <mxPoint x="730" y="1220" />
+              <mxPoint x="910" y="1220" />
+            </Array>
+            <mxPoint x="750" y="930" as="sourcePoint" />
+            <mxPoint x="800" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="1220" as="sourcePoint" />
+            <mxPoint x="720" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-20" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;Please enter a number&amp;nbsp;&lt;div&gt;(enter 0 to quit): &quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="600" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="input user_entry" vertex="1">
+          <mxGeometry height="40" width="240" x="600" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-21" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="NOT isNumeric(user_entry) ?" vertex="1">
+          <mxGeometry height="80" width="200" x="620" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-23" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="output(&quot;Invalid entry. Please enter a number (enter 0 to quit): &quot;)" vertex="1">
+          <mxGeometry height="40" width="230" x="930" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="input user_entry" vertex="1">
+          <mxGeometry height="40" width="230" x="930" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-26" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-25" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="860" y="1580" as="sourcePoint" />
+            <mxPoint x="720" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="845" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="1635" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-29" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;This loop validates each new number that the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;user enters by ensuring it&#39;s a numeric value&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;before the loop-controlling test is made again.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="1260" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-30" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-24" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1080" y="1620" as="sourcePoint" />
+            <mxPoint x="1130" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-31" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="rYLte2qL9ySAvnjPm1iA-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="920" y="1750" as="sourcePoint" />
+            <mxPoint x="970" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-34" edge="1" parent="1" source="rYLte2qL9ySAvnjPm1iA-22" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1700" />
+              <mxPoint x="1600" y="1700" />
+              <mxPoint x="1600" y="780" />
+            </Array>
+            <mxPoint x="620" y="1560" as="sourcePoint" />
+            <mxPoint x="270" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="stop" vertex="1">
+          <mxGeometry height="40" width="80" x="230" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="rYLte2qL9ySAvnjPm1iA-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,32 @@
+// This program continuously prompts the user to enter a number.
+// For each number entered, the program displays whether the number is a positive or negative number.
+start
+	Declaration
+		num user_entry
+		num QUIT = 0
+	// The following series of outputs tell the user what they will be asked to do and how to stop the program.
+	output("Hello, you will be asked repeatedly to enter a number.")
+	output("The number can be a negative number, such as -5, or a positive number, such as 12.")
+	output("Please enter a number (enter 0 to quit): ")
+	input user_entry
+	// This loop validates the user's first entry by ensuring it's a numeric value.
+	while NOT isNumeric(user_entry)
+		output("Invalid entry. Please enter a number (enter 0 to quit): ")
+		input user_entry
+	endwhile
+	while user_entry <> QUIT
+		if user_entry > 0 then
+			output("That's a positive number.")
+		else
+			output("That's a negative number.")
+		endif
+		output("Please enter a number (enter 0 to quit): ")
+		input user_entry
+		// This loop validates each new number that the user enters by ensuring it's a numeric value...
+		// before the loop-controlling test is made again.
+		while NOT isNumeric(user_entry)
+			output("Invalid entry. Please enter a number (enter 0 to quit): ")
+			input user_entry
+		endwhile
+	endwhile
+stop

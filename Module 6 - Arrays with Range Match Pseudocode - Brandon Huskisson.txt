@@ -1,0 +1,44 @@
+// This program asks the user to enter the number of items they wish to order.
+// Based on the entered quantity, the program determines what discount the user gets, if any.
+start
+	Declaration
+		num actual_discount_rate
+		num index
+		num item_quantity
+		num subtotal
+		num total_discount_amount
+		num total_bill
+		num ITEM_COST = 2.99
+		num DISCOUNT_RATES[5] = 0, 0.05, 0.10, 0.15, 0.20
+		num QUANTITY_LIMITS[5] = 0, 11, 26, 51, 101
+		num SIZE = 5
+	getItemQuantity()
+	determineDiscount()
+	subtotal = item_quantity * ITEM_COST
+	total_discount_amount = subtotal * actual_discount_rate
+	total_bill = subtotal - total_discount_amount
+	output("The total discount amount is: ", total_discount_amount)
+	output("The final bill after applying the discount is: ", total_bill)
+stop
+
+// This module asks the user how many items they want to order.
+// Then, the module validates the input to ensure it's a numeric value and not a negative number.
+getItemQuantity()
+	output("Hello, please enter the number of items you want to order: ")
+	input item_quantity
+	while (NOT isNumeric(item_quantity)) OR (item_quantity < 0)
+		output("Invalid entry. Please enter the number of items you want to order: ")
+		input item_quantity
+	endwhile
+return
+
+// This module determines what discount the customer gets, if any.
+// The module compares the number of items the customer wants to order to the lower limit of the... 
+// defined ranges of item quantities, where appropriate, to determine which discount rate applies.
+determineDiscount()
+	index = SIZE - 1
+	while item_quantity < QUANTITY_LIMITS[index]
+		index = index - 1
+	endwhile
+	actual_discount_rate = DISCOUNT_RATES[index]
+return
